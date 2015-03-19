@@ -7,3 +7,4 @@
 local_settings.py #optional
 #/static #optional, need to set up CDN for Heroku
 /venv
+/gitfree

@@ -10,6 +10,8 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from gitfree.stuff import CKEY_stuff, CSECRET_stuff, ATOKEN_stuff, ASECRET_stuff
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -80,6 +82,10 @@ USE_L10N = True
 
 USE_TZ = True
 
+CKEY = CKEY_stuff
+CSECRET = CSECRET_stuff
+ATOKEN = ATOKEN_stuff
+ASECRET = ASECRET_stuff
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
