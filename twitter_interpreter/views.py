@@ -3,6 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from tweepy import OAuthHandler
 import tweepy
+from data_projects import settings
 from twitter_interpreter.analysis2 import analysis
 
 

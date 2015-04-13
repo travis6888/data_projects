@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'data_projects.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
+    url(r'^tweets', 'twitter_interpreter.views.tweets', name='tweets'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
